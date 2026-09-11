@@ -1,11 +1,10 @@
 <div align="center">
 
-# 🛡️ KhdraObuscate
+# 🛡️ DkhObuscate
 
 **Trình obfuscate mã nguồn Python — bảo vệ code khỏi bị đánh cắp, crack hoặc decompile ngược.**
 
 ![Python](https://img.shields.io/badge/Python-3.12%2B-blue?logo=python&logoColor=white)
-![License](https://img.shields.io/badge/License-Chưa%20xác%20định-lightgrey)
 ![Status](https://img.shields.io/badge/Status-Đang%20phát%20triển-yellow)
 ![Made by](https://img.shields.io/badge/Made%20by-DzyKhdra-orange)
 
@@ -15,7 +14,7 @@
 
 ## 📖 Giới thiệu
 
-**KhdraObuscate** là công cụ obfuscate (làm rối) mã nguồn Python, giúp bảo vệ code của bạn khỏi việc bị đọc, sao chép hoặc reverse ngược một cách dễ dàng. Công cụ biến đổi cấu trúc file gốc thành một phiên bản khó đọc đối với con người nhưng vẫn giữ nguyên hành vi thực thi.
+**DkhObuscate** là công cụ obfuscate (làm rối) mã nguồn Python, giúp bảo vệ code của bạn khỏi việc bị đọc, sao chép hoặc reverse ngược một cách dễ dàng. Công cụ biến đổi cấu trúc file gốc thành một phiên bản khó đọc đối với con người nhưng vẫn giữ nguyên hành vi thực thi.
 
 > ⚠️ **Lưu ý quan trọng:** Công cụ này được tạo ra với mục đích bảo vệ mã nguồn hợp pháp. Tác giả không chịu trách nhiệm nếu công cụ bị sử dụng sai mục đích (ví dụ: obfuscate mã độc, botnet, keylogger...). Vui lòng sử dụng có trách nhiệm.
 
@@ -23,13 +22,7 @@
 
 ## ✨ Tính năng
 
-- 🔒 Làm rối tên biến, hàm, class thành các định danh khó đọc
-- 🧩 Mã hóa chuỗi và các giá trị hằng số trong code
-- 🐍 Hỗ trợ Python 3.12+
-- ⚡ Giữ nguyên hành vi thực thi của chương trình gốc sau khi obfuscate
-- 🗂️ Dễ tích hợp vào quy trình build/deploy sẵn có
 
-*(Cập nhật thêm các tính năng cụ thể nếu có: anti-debug, watermark, chống decompile bằng bytecode, v.v.)*
 
 ---
 
