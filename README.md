@@ -17,11 +17,12 @@
 
 ## 📖 Giới thiệu
 
-**DkhObuscate** là công cụ obfuscate (làm rối) mã nguồn Python nhiều lớp, giúp bảo vệ code của bạn khỏi việc bị đọc, sao chép hoặc reverse engineer. Công cụ biến đổi toàn bộ cấu trúc file gốc — từ tên biến, chuỗi, luồng điều khiển đến bytecode — thành một phiên bản cực kỳ khó đọc nhưng vẫn giữ nguyên hành vi thực thi chính xác.
+**DkhObuscate** là công cụ obfuscate (làm rối) mã nguồn Python nhiều lớp, giúp bảo vệ code của bạn khỏi việc bị đánh cắp mã nguồn, crack key,... **Tuy nhiên công cụ này là sản phầm từ AI**, chủ sở hữu đã vibe coding ra được sản phẩm này, có thể nó sẽ không bằng 1 sản phẩm code tay vì vậy mong các bạn không chê nó.
 
-Hỗ trợ cả **giao diện đồ họa (GUI)** lẫn **dòng lệnh (CLI)**, chạy được trên máy tính lẫn điện thoại qua Termux.
 
-> ⚠️ **Lưu ý quan trọng:** Công cụ này được tạo ra với mục đích bảo vệ mã nguồn hợp pháp. Tác giả không chịu trách nhiệm nếu công cụ bị sử dụng sai mục đích. Vui lòng sử dụng có trách nhiệm.
+> ⚠️ **Những lưu ý quan trọng:** Công cụ này được tạo ra với mục đích bảo vệ mã nguồn hợp pháp. Tác giả không chịu trách nhiệm nếu công cụ bị sử dụng sai mục đích. Vui lòng sử dụng có trách nhiệm
+> [!NOTE]
+> **📌 Hiện tại DkhObfuscator là mã nguồn đóng, trong tương lai tôi chắc chắn sẽ mở**
 
 ---
 
