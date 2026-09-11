@@ -20,9 +20,12 @@
 **DkhObuscate** là công cụ obfuscate (làm rối) mã nguồn Python nhiều lớp, giúp bảo vệ code của bạn khỏi việc bị đánh cắp mã nguồn, crack key,... **Tuy nhiên công cụ này là sản phầm từ AI**, chủ sở hữu đã vibe coding ra được sản phẩm này, có thể nó sẽ không bằng 1 sản phẩm code tay vì vậy mong các bạn không chê nó.
 
 
-> ⚠️ **Những lưu ý quan trọng:** Công cụ này được tạo ra với mục đích bảo vệ mã nguồn hợp pháp. Tác giả không chịu trách nhiệm nếu công cụ bị sử dụng sai mục đích. Vui lòng sử dụng có trách nhiệm
+> ⚠️ **Những lưu ý quan trọng:** Công cụ này được tạo ra với mục đích bảo vệ mã nguồn hợp pháp. Tác giả không chịu trách nhiệm nếu công cụ bị sử dụng sai mục đích. Vui lòng sử dụng có trách nhiệm.
+
 > [!NOTE]
-> **📌 Hiện tại DkhObfuscator là mã nguồn đóng, trong tương lai tôi chắc chắn sẽ mở**
+> 📌 **1.** Do tôi vibe coding ngu nên thời gian obf file sẽ khá lâu, input càng nặng obf càng lâu vì vậy tôi chân thành xin lỗi các bạn.
+> 
+> **2.** Hiện tại Dkh Obfuscator **là mã nguồn đóng**, trong tương lai tôi chắc chân sẽ mở cho các ban sử dụng mã nguồn thoải mái.
 
 ---
 
