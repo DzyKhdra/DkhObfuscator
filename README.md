@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="image/banner.png" alt="DkhObfuscate Banner" width="100%">
+<img src="Images/banner.png" alt="DkhObfuscate Banner" width="100%">
 
 # 🛡️ DkhObuscate
 
@@ -85,7 +85,7 @@ Chọn mức độ obfuscate phù hợp với nhu cầu — từ nhẹ đến c�
 
 <div align="center">
 
-<img src="image/example.png.png" alt="DkhObfuscate Demo" width="80%">
+<img src="Images/example.png" alt="DkhObfuscate Demo" width="80%">
 
 </div>
 
