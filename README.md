@@ -27,22 +27,6 @@ Hỗ trợ cả **giao diện đồ họa (GUI)** lẫn **dòng lệnh (CLI)**, 
 
 ## ✨ Tính năng
 
-### 🎚️ 6 Profile bảo vệ có sẵn
-
-Chọn mức độ obfuscate phù hợp với nhu cầu — từ nhẹ đến cực mạnh:
-
-| Profile | Mô tả |
-|:---:|---|
-| `SAFE` | Nhẹ, ổn định — phù hợp code đơn giản, ưu tiên tốc độ chạy |
-| `BALANCED` | Cân bằng giữa bảo vệ và hiệu năng, bật opaque predicates |
-| `HARD` | Mạnh, thêm lambda thunk và builtins indirection |
-| `MAX` | Cực mạnh — AST depth 8, expansion ở mức extreme |
-| `DKH` | Profile đặc biệt của tác giả, có stream decrypt riêng |
-| `APEX` | Mạnh nhất hiện có — toàn bộ tính năng bật full |
-| `CUSTOM` | Tự bật/tắt từng tính năng theo ý muốn |
-
----
-
 ### 🔒 Các lớp obfuscate
 
 - **Identifier Mangling** — Đổi tên toàn bộ biến, hàm, class thành ký tự Hiragana hoặc ASCII ngẫu nhiên được sinh từ seed — không thể đoán hay đặt ngược lại
@@ -78,21 +62,6 @@ Chọn mức độ obfuscate phù hợp với nhu cầu — từ nhẹ đến c�
 - **Auto-install Dependencies** — Tự động cài toàn bộ thư viện còn thiếu khi khởi động — không cần setup thủ công
 - **GUI + CLI** — Giao diện đồ họa (CustomTkinter) lẫn command-line, dùng theo cách nào cũng được
 - **Yêu cầu chính xác Python 3.12** — Tối ưu hóa và kiểm thử chuyên biệt cho Python 3.12
-
----
-
-## 🎬 Demo
-
-<div align="center">
-
-<img src="Images/example.png" alt="DkhObfuscate Demo" width="80%">
-
-</div>
-
-| File | Mô tả |
-|---|---|
-| [`sample.py`](sample.py) | File Python gốc trước khi obfuscate |
-| [`obf-sample.py`](obf-sample.py) | File sau khi obfuscate bằng DkhObuscate |
 
 ---
 
@@ -145,31 +114,43 @@ Chọn mức độ obfuscate phù hợp với nhu cầu — từ nhẹ đến c�
 
 ---
 
+## 🎬 Demo
+
+<div align="center">
+
+<img src="Images/example.png" alt="DkhObfuscate Demo" width="80%">
+
+</div>
+
+| File | Mô tả |
+|---|---|
+| [`sample.py`](sample.py) | File Python gốc trước khi obfuscate |
+| [`obf-sample.py`](obf-sample.py) | File sau khi obfuscate bằng DkhObuscate |
+
+---
+
 ## ❓ FAQ
 
 **File sau khi obfuscate có chạy chậm hơn không?**
-Có thể chậm hơn một chút do lớp giải mã runtime và VM overhead. Mức độ tùy vào profile được chọn — `SAFE` gần như không ảnh hưởng, `APEX` có overhead cao hơn.
+Có thể chậm hơn một chút.
 
 **Có thể deobfuscate ngược lại không?**
-Không có công cụ nào deobfuscate được output của DkhObuscate. Nhiều lớp bảo vệ (VM, integrity check, anti-debug, opaque predicates) hoạt động kết hợp để ngăn chặn mọi hướng reverse.
+Có, không 1 obfuscate nào thuần python không thể deobuscate, huống hồ chi obfuscate của tôi chưa chắc đã là vô địch thiên hạ.
 
-**Công cụ có hỗ trợ Python 2 không?**
+**Công cụ có hỗ trợ Python 3.12 không?**
 Không. DkhObuscate yêu cầu chính xác **Python 3.12** — không hơn, không kém.
 
 **Output có thể chạy trên máy khác không?**
 Có, miễn là máy đó cũng cài Python 3.12.
 
-**Tôi có thể dùng công cụ này cho mục đích thương mại không?**
-Không. Toàn bộ quyền thuộc về tác giả — xem phần License bên dưới.
 
 ---
 
-## 📌 Roadmap
+## 📌 Future Plans
 
-- [ ] Hỗ trợ obfuscate cho project nhiều file cùng lúc
-- [ ] Thêm tùy chọn mức độ obfuscate chi tiết hơn trong CUSTOM mode
-- [ ] Xuất báo cáo độ khó reverse sau khi build
-- [ ] Hỗ trợ thêm các phiên bản Python tương lai
+- [ ] Nâng cao mức độ obfuscate.
+- [ ] Bảo vệ mã nguồn cứng hơn.
+- [ ] Phát triển rộng cho những version python khác.
 
 ---
 
