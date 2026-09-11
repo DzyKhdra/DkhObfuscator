@@ -45,16 +45,50 @@ pip install -r requirements.txt
 
 ## 🔧 Cách sử dụng
 
-```bash
-python main.py --input your_script.py --output obf_output.py
-```
+### 🖥️ Nếu bạn dùng máy tính
 
-| Tham số | Mô tả |
-|---|---|
-| `--input` | Đường dẫn file Python gốc cần obfuscate |
-| `--output` | Đường dẫn file sau khi obfuscate |
+> **Bước 1 — Chuẩn bị**
+> Đặt file `Dkh312.py` và file input (ví dụ: `xxx.py`) vào **cùng một thư mục**.
 
-*(Chỉnh lại đúng theo cú pháp CLI thật của công cụ nếu khác)*
+> **Bước 2 — Chạy công cụ**
+> Mở terminal tại thư mục đó và chạy:
+> ```bash
+> python Dkh312.py
+> ```
+> *(Dkh312 sẽ tự động cài tất cả các thư viện còn thiếu — không cần làm gì thêm.)*
+
+> **Bước 3 — Nhập thông tin**
+> Chương trình sẽ hỏi lần lượt:
+> - Tên **Username** của bạn
+> - Tên **file input** (ví dụ: `xxx.py`)
+> - Các tùy chọn **y/n** theo ý muốn
+>
+> Vậy là xong! 🎉
+
+---
+
+### 📱 Nếu bạn dùng điện thoại (Termux)
+
+> **Bước 1 — Chuẩn bị**
+> Đặt file `Dkh312.py` và file input (ví dụ: `xxx.py`) vào **cùng một thư mục**.
+
+> **Bước 2 — Chạy công cụ**
+> Mở một session Termux, điều hướng đến thư mục chứa file và chạy:
+> ```bash
+> python Dkh312.py
+> ```
+> *(Dkh312 sẽ tự động cài tất cả các thư viện còn thiếu — không cần làm gì thêm.)*
+
+> **Bước 3 — Nhập thông tin**
+> Chương trình sẽ hỏi lần lượt:
+> - Tên **Username** của bạn
+> - Tên **file input** (ví dụ: `xxx.py`)
+> - Các tùy chọn **y/n** theo ý muốn
+>
+> Vậy là xong! 🎉
+
+> [!NOTE]
+> 📌 File `Dkh312.py` **phải nằm chung thư mục** với file input bạn muốn obfuscate.
 
 ---
 
