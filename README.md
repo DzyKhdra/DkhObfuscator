@@ -33,16 +33,6 @@
 
 ---
 
-## 🚀 Cài đặt
-
-```bash
-git clone https://github.com/<tên-user>/KhdraObuscate.git
-cd KhdraObuscate
-pip install -r requirements.txt
-```
-
----
-
 ## 🔧 Cách sử dụng
 
 ### 🖥️ Nếu bạn dùng máy tính
