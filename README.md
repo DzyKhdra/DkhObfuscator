@@ -25,7 +25,7 @@
 > [!NOTE]
 > **1.** Do tôi vibe coding ngu nên thời gian obf file sẽ khá lâu, input càng nặng obf càng lâu vì vậy tôi chân thành xin lỗi các bạn.
 > 
-> **2.** Hiện tại Dkh Obfuscator **là mã nguồn đóng**, trong tương lai tôi chắc chân sẽ mở cho các ban sử dụng mã nguồn thoải mái.
+> **2.** Hiện tại Dkh Obfuscator **là mã nguồn đóng**, trong tương lai tôi chắc chắn sẽ mở cho các bạn sử dụng mã nguồn thoải mái.
 
 ---
 
